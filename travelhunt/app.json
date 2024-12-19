@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "GamifiedTourismApp",
+    "slug": "travelapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "permissions": [
+      "LOCATION",
+      "MEDIA_LIBRARY",
+      "CAMERA",
+      "STORAGE"
+    ],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.peeyush19sharma.gamifiedtourismapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c82a4725-b7a5-4c08-872e-993979b01ef4"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "owner": "peeyush19sharma"
+  }
+}
